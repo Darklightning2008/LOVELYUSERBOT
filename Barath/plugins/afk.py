@@ -26,7 +26,7 @@ async def afk(barath, message):
     else:
         reason = arg
     await Zect.set_afk(True, afk_time, reason)
-    await message.edit("**I'm goin' AFK**")
+    await message.edit("**{username} goin' AFK**")
 
 
 @barath.on_message(filters.mentioned & ~filters.bot & filters.create(user_afk), group=11)
