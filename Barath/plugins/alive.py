@@ -23,7 +23,7 @@ async def alive():
     ALIVE_TEX = "ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴍᴀꜱᴛᴇʀ"
     EMOTES = ["😍", "💀", "😊", "👋", "🎉", "🔥", "🌟", "💫", "🚀", "🤖", "👻", "👾", "🧡"]
 
-    photo_url = "https://graph.org/file/cb9edbd85dc24d1459cb6.mp4"
+    photo_url = "https://graph.org/file/d4de87d4427c910a3815c.mp4"
     
     ALIVE_TEXT = f"""{ALIVE_TEX}
 ▰▱▰▱▰▱▰▱▰▱▰▱▰
@@ -74,13 +74,14 @@ async def ping(_, message):
         return
 
 
+
 __mod_name__ = "STATUS"  
     
 __help__ = """  
-- alive: to check bot on/off
-- ping: check response of server
+- info: user info
+- id: get ids
 """  
-
-
+    
+    
 string = {"module": __mod_name__, "help": __help__}   
 MODULE.append(string)
