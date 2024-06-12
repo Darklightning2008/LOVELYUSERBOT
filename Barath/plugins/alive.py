@@ -33,7 +33,6 @@ async def alive():
 ➤ <b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}
 ➤ <b>ᴘɪɴɢ:</b> {ping_time} ms
 ➤ <b>Python:</b> {pyrover}
-➤ <b>MADE BY LOVELY NETWORK 
 
 <b>ᴜꜱᴇʀʙᴏᴛ</b> {user_hyperlink}
 
