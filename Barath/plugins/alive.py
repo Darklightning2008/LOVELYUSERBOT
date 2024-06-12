@@ -23,7 +23,7 @@ async def alive():
     ALIVE_TEX = "ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴍᴀꜱᴛᴇʀ"
     EMOTES = ["😍", "💀", "😊", "👋", "🎉", "🔥", "🌟", "💫", "🚀", "🤖", "👻", "👾", "🧡"]
 
-    photo_url = "https://graph.org/file/cb9edbd85dc24d1459cb6.mp4"
+    photo_url = "https://graph.org/file/d4de87d4427c910a3815c.mp4"
     
     ALIVE_TEXT = f"""{ALIVE_TEX}
 ▰▱▰▱▰▱▰▱▰▱▰▱▰
@@ -33,6 +33,7 @@ async def alive():
 ➤ <b>ᴜᴘᴛɪᴍᴇ:</b> {uptime}
 ➤ <b>ᴘɪɴɢ:</b> {ping_time} ms
 ➤ <b>Python:</b> {pyrover}
+➤ <b>MADE BY LOVELY NETWORK 
 
 <b>ᴜꜱᴇʀʙᴏᴛ</b> {user_hyperlink}
 
