@@ -74,13 +74,14 @@ async def ping(_, message):
         return
 
 
+
 __mod_name__ = "STATUS"  
     
 __help__ = """  
-- alive: to check bot on/off
-- ping: check response of server
+- info: user info
+- id: get ids
 """  
-
-
+    
+    
 string = {"module": __mod_name__, "help": __help__}   
 MODULE.append(string)
